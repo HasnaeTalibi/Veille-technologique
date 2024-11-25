@@ -1,0 +1,22 @@
+// Gestion de l'Énergie
+digraph {
+	A [label="Gestion de l'Énergie"]
+	B [label="Consommation énergétique"]
+	C [label="Optimisation énergétique"]
+	D [label="Modélisation et Prédiction"]
+	B1 [label="Facteurs influents de consommation"]
+	B2 [label="Mesures de consommation"]
+	C1 [label="Techniques d'optimisation"]
+	C2 [label="Énergie renouvelable"]
+	D1 [label="Régression linéaire"]
+	D2 [label="Machine Learning"]
+	A -> B
+	A -> C
+	A -> D
+	B -> B1
+	B -> B2
+	C -> C1
+	C -> C2
+	D -> D1
+	D -> D2
+}
